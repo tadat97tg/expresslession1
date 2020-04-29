@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Tạ Quang Đạt",
+      "age": "22",
+      "gender": "nam",
+      "id": "RpHLtnCDU"
+    },
+    {
+      "name": "Nguyễn Thị Thanh Huyền",
+      "age": "20",
+      "gender": "nữ",
+      "id": "bal0nue99"
+    },
+    {
+      "name": "I love You",
+      "age": "21",
+      "gender": "none",
+      "id": "d4uo-vkiW"
+    },
+    {
+      "name": "Special",
+      "age": "6",
+      "gender": "undefined",
+      "id": "4ddcpvtiF"
+    }
+  ]
+}

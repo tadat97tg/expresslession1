@@ -1,6 +1,17 @@
 var express = require('express');
 var app = express();
-var port = 3000;
 
-app.get("/",(req,res)=> res.send("tao là đạt đây hí hí"));
-app.listen(port, ()=> console.log('Server listening on port' + port));
+var userRoute = require('./routes/user.route.js');
+
+const port = 3000;
+
+app.set('view engine', 'pug');
+app.set('views', './views');
+
+app.get("/", function(req,res){
+	res.render('index');
+})
+
+app.use('/users',userRoute);
+
+app.listen(port, ()=> console.log('Connecting to ' + port))
